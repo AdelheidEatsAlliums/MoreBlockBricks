@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "moreblockbricks",
+  "version": "${version}",
+  "name": "MoreBlockBricks",
+  "description": "",
+  "authors": ["AdelheidEatsAlliums"],
+  "contact": {
+    "repo": "https://github.com/AdelheidEatsAlliums/MoreBlockBricks"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/moreblockbricks/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.adelheideatsalliums.moreblockbricks.client.MoreBlockBricksClient"
+    ],
+    "main": [
+      "net.adelheideatsalliums.moreblockbricks.MoreBlockBricks"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
